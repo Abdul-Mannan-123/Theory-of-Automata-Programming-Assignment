@@ -1,0 +1,7 @@
+digraph DFA {
+  rankdir=LR;
+  start [shape=point];
+  start -> D0;
+  D0 [shape=doublecircle, label="D0 ('S',)"];
+  D0 -> D0 [label="a"];
+}
